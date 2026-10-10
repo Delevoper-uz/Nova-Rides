@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvCSfS5XNCL5b1sj5K7mqKTxpGWeHskrxn1-WIyrHPtogOwL-7eXb_0zA&s=10">
+    <title>Nova Rides</title>
+</head>
+<body>
+
+    <div id="loader" class="loader-overlay">
+        <div class="loader-spinner"></div>
+        <div class="loader-text">NOVA RIDES LOADING...</div>
+    </div>
+
+    <header class="header">
+        <div class="logo">NOVA RIDES</div>
+        <div class="nav-links">
+            <a class="nav-item active" id="nav-home" href="#home">Home</a>
+            <a class="nav-item" id="nav-fleet" href="#fleet">Fleet</a>
+            <a class="nav-item" id="nav-customizer" href="#customizer">Configurator</a>
+            <a class="nav-item" id="nav-experience" href="#experience">Experience</a>
+            <a class="nav-item" id="nav-contact" href="#contact">Contact</a>
+        </div>
+        <button class="btn-primary" id="btn-open-modal-header">Book Test Drive</button>
+    </header>
+
+    <main class="main-content">
+
+        <section id="home" class="section hero-section">
+            <div class="hero-text">
+                <span class="badge">Next-Gen Automotive Excellence</span>
+                <h1>THE FUTURE OF PERFORMANCE</h1>
+                <p>Experience precision engineering, unyielding power, and futuristic luxury crafted for those who define the road ahead.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" id="btn-hero-explore">Explore Fleet</button>
+                    <button class="btn-secondary" id="btn-hero-reserve">Reserve Experience</button>
+                </div>
+            </div>
+            <div class="hero-image-box">
+                <img class="tilt-img" src="https://www.afisha.uz/uploads/media/2022/05/0602219_l.jpeg" alt="Nova Spectre GT">
+            </div>
+        </section>
+
+        <section class="section stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h2>1,200 HP</h2>
+                    <p>Maximum Power Output</p>
+                </div>
+                <div class="stat-card">
+                    <h2>1.9s</h2>
+                    <p>0-100 km/h Acceleration</p>
+                </div>
+                <div class="stat-card">
+                    <h2>650 km</h2>
+                    <p>Pure Electric Range</p>
+                </div>
+                <div class="stat-card">
+                    <h2>100%</h2>
+                    <p>Handcrafted Precision</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fleet" class="section fleet-section">
+            <div class="section-header">
+                <h2>OUR ELITE FLEET</h2>
+                <p>Discover our range of luxury hypercars, high-performance EVs, and track-focused machines.</p>
+            </div>
+            <div class="fleet-grid">
+                <div class="car-card">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80" alt="Nova Spectre GT">
+                    <div class="car-card-body">
+                        <h3>Nova Spectre GT</h3>
+                        <p>Twin-turbo V8 combined with a high-torque electric motor for relentless force.</p>
+                        <div class="car-specs">
+                            <span>780 HP</span>
+                            <span>3.2s 0-100</span>
+                            <span>$245,000</span>
+                        </div>
+                        <button class="btn-primary full-width btn-car-action">Reserve Now</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80" alt="Nova Ion EV">
+                    <div class="car-card-body">
+                        <h3>Nova Ion EV</h3>
+                        <p>All-electric hyper-sedan setting new standards for acceleration and luxury.</p>
+                        <div class="car-specs">
+                            <span>1,020 HP</span>
+                            <span>2.1s 0-100</span>
+                            <span>$189,000</span>
+                        </div>
+                        <button class="btn-primary full-width btn-car-action">Reserve Now</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Nova Apex SUV">
+                    <div class="car-card-body">
+                        <h3>Nova Apex SUV</h3>
+                        <p>Uncompromising utility meets supercar dynamics in an all-terrain powerhouse.</p>
+                        <div class="car-specs">
+                            <span>650 HP</span>
+                            <span>3.6s 0-100</span>
+                            <span>$165,000</span>
+                        </div>
+                        <button class="btn-primary full-width btn-car-action">Reserve Now</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=800&q=80" alt="Nova Hyper-X">
+                    <div class="car-card-body">
+                        <h3>Nova Hyper-X</h3>
+                        <p>Track-focused aerodynamic monster engineered for record-breaking lap times.</p>
+                        <div class="car-specs">
+                            <span>1,200 HP</span>
+                            <span>1.9s 0-100</span>
+                            <span>$420,000</span>
+                        </div>
+                        <button class="btn-primary full-width btn-car-action">Reserve Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="customizer" class="section customizer-section">
+            <div class="section-header">
+                <h2>VISUAL CONFIGURATOR</h2>
+                <p>Customize your dream vehicle in real-time.</p>
+            </div>
+            <div class="configurator-box">
+                <div class="config-preview">
+                    <img class="tilt-img" src="https://www.afisha.uz/uploads/media/2022/05/0602219_l.jpeg" alt="Configurator Car">
+                </div>
+                <div class="config-controls">
+                    <h3>Select Exterior Color</h3>
+                    <div class="color-options">
+                        <div class="color-dot active" style="background-color: #10b981;"></div>
+                        <div class="color-dot" style="background-color: #3b82f6;"></div>
+                        <div class="color-dot" style="background-color: #ef4444;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section tech-section">
+            <div class="tech-grid">
+                <div class="tech-text">
+                    <h2>COCKPIT OF TOMORROW</h2>
+                    <p>Immerse yourself in AI-driven telemetry, augmented reality head-up displays, and autonomous cruising mode.</p>
+                </div>
+                <div class="tech-image">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=800&q=80" alt="Interior Tech">
+                </div>
+            </div>
+        </section>
+
+        <section class="section craft-section">
+            <div class="craft-grid">
+                <div class="craft-image">
+                    <img class="tilt-img" src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" alt="Craftsmanship">
+                </div>
+                <div class="craft-text">
+                    <h2>PRECISION CRAFTSMANSHIP</h2>
+                    <p>Every seam, carbon-fiber element, and forged aluminum chassis component is assembled by master technicians.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section compare-section">
+            <div class="section-header">
+                <h2>MODEL COMPARISON</h2>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Nova Spectre GT</th>
+                            <th>Nova Ion EV</th>
+                            <th>Nova Hyper-X</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Powertrain</td>
+                            <td>Hybrid V8</td>
+                            <td>Quad Electric</td>
+                            <td>Quad Electric + Turbo</td>
+                        </tr>
+                        <tr>
+                            <td>Horsepower</td>
+                            <td>780 HP</td>
+                            <td>1,020 HP</td>
+                            <td>1,200 HP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section test-drive-section">
+            <div class="test-drive-card" id="testDriveCard" style="visibility: hidden;">
+                <h2>RESERVE YOUR EXPERIENCE</h2>
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" id="userName" required placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label>EMAIL</label>
+                        <input type="email" id="userEmail" required placeholder="email@example.com">
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Jo'natish</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section faq-section">
+            <div class="section-header">
+                <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">How do I schedule a test drive?</div>
+                    <div class="faq-answer">You can fill out the reservation modal on our website.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section newsletter-section">
+            <h2>JOIN THE EXCLUSIVE CLUB</h2>
+            <p>Receive private invitations to confidential launches.</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button class="btn-primary" id="btn-subscribe">Subscribe</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-col">
+            <h3>Nova Rides</h3>
+            <p>The pinnacle of automotive luxury and electrical performance engineering.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#fleet" class="footer-link">Fleet</a>
+            <a href="#customizer" class="footer-link">Configurator</a>
+            <a href="#experience" class="footer-link">Experience</a>
+        </div>
+        <div class="footer-col">
+            <h4>Legal & Safety</h4>
+            <a href="#privacy" class="footer-link">Privacy Policy</a>
+            <a href="#terms" class="footer-link">Terms of Service</a>
+            <a href="#cookies" class="footer-link">Cookie Settings</a>
+        </div>
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <a href="#instagram" class="footer-link">Instagram</a>
+            <a href="#youtube" class="footer-link">YouTube</a>
+            <a href="#twitter" class="footer-link">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
